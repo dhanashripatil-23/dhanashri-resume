@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Dhanashri Patil — Resume',
-  description: 'Software Test Engineer Resume Website'
+  title: "Dhanashri Patil — Resume",
+  description: "Modern + Glassmorphism Resume"
 }
 
 export default function RootLayout({ children }) {

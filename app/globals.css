@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg-gradient-start: #071025;
-  --bg-gradient-end: #071427;
-}
-
-html, body, #__next { height: 100%; }
-
 body {
-  @apply bg-gradient-to-b from-gray-50 to-gray-100 dark:from-[var(--bg-gradient-start)] dark:to-[var(--bg-gradient-end)];
-  font-family: ui-sans-serif, system-ui, -apple-system;
+  @apply bg-gradient-to-br from-[#050816] via-[#0a0f24] to-[#101935] text-white;
+  font-family: ui-sans-serif, system-ui;
 }
