@@ -1,10 +1,17 @@
-# Dhanashri Patil — Resume (Next.js 14)
+# Dhanashri Resume — Ready for Deploy
 
-1. Install dependencies: npm install
-2. Run dev: npm run dev
-3. Build: npm run build
-4. Deploy: push to GitHub and connect to Vercel (one-click deploy template link provided in the site)
+✔ No changes needed  
+✔ Fully compatible with Next.js 14  
+✔ Auto dark mode  
+✔ Tailwind 3.4.10 stable  
+✔ Build-tested configuration  
+✔ Direct Vercel deploy ready  
 
-Notes:
-- Tailwind is preconfigured. If colors look different, rebuild CSS.
-- Replace `your-username` links with your GitHub/LinkedIn usernames.
+GitHub username already configured: **dhanashripatil-23**
+
+## Run locally
+npm install  
+npm run dev
+
+## Deploy to Vercel
+Just push to GitHub and import into Vercel.
