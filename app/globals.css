@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-to-br from-[#050816] via-[#0a0f24] to-[#101935] text-white;
+  @apply bg-gradient-to-br from-[#05070f] via-[#0c1424] to-[#101b33] text-white;
   font-family: ui-sans-serif, system-ui;
 }

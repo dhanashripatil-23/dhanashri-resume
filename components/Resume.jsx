@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { MailIcon, LinkIcon } from "@heroicons/react/24/outline";
 
@@ -7,8 +9,8 @@ export default function Resume(){
       <motion.div 
         initial={{opacity:0,y:20}}
         animate={{opacity:1,y:0}}
-        transition={{duration:0.8}}
-        className="w-full max-w-4xl p-10 rounded-3xl border border-white/10 bg-glass backdrop-blur-xl shadow-2xl"
+        transition={{duration:0.7}}
+        className="w-full max-w-4xl p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl"
       >
         <h1 className="text-4xl font-extrabold text-white text-center mb-2">
           Dhanashri Patil
@@ -33,8 +35,8 @@ export default function Resume(){
           <div className="bg-white/5 p-5 rounded-2xl border border-white/10">
             <h2 className="text-xl font-semibold mb-2">About</h2>
             <p className="text-gray-300 leading-relaxed">
-              Software Test Engineer with strong skills in automation (Selenium, Appium, Cypress)
-              and manual testing. Passionate about quality, debugging & delivering flawless user experience.
+              Software Test Engineer skilled in Automation (Cypress, Selenium, Appium) and Manual testing.
+              Focused on delivering smooth user experiences, debugging, and improving QA processes.
             </p>
           </div>
 
@@ -61,13 +63,13 @@ export default function Resume(){
             <div>
               <h3 className="font-bold">Integration Wizards</h3>
               <p className="text-gray-400 text-sm">Software Test Engineer • 2017–2020</p>
-              <p className="text-gray-300 mt-1 text-sm">Mobile & web app QA, automation scripts & debugging.</p>
+              <p className="text-gray-300 mt-1 text-sm">Web & app QA, automation scripts, debugging.</p>
             </div>
           </div>
         </section>
 
         <p className="text-center text-gray-500 mt-10 text-xs">
-          Built for Dhanashri Patil — Powered by Next.js & Tailwind
+          Built for Dhanashri Patil — Powered by Next.js 14
         </p>
       </motion.div>
     </div>
