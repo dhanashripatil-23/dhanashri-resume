@@ -1,17 +1,62 @@
-# Dhanashri Resume — Ready for Deploy
+# Dhanashri Patil - Resume Portfolio
 
-✔ No changes needed  
-✔ Fully compatible with Next.js 14  
-✔ Auto dark mode  
-✔ Tailwind 3.4.10 stable  
-✔ Build-tested configuration  
-✔ Direct Vercel deploy ready  
+A professional, responsive resume portfolio built with Next.js and Tailwind CSS.
 
-GitHub username already configured: **dhanashripatil-23**
+## 🚀 Features
 
-## Run locally
-npm install  
+- **Responsive Design**: Optimized for all devices (Mobile, Tablet, Desktop).
+- **Print-Friendly**: High-quality PDF export functionality (currently disabled).
+- **Modern UI**: Clean, professional aesthetic with an orange color theme.
+- **Animations**: Subtle entrance animations using Framer Motion.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Heroicons](https://heroicons.com/)
+- **PDF Generation**: [html2canvas](https://html2canvas.hertzen.com/) & [jsPDF](https://github.com/parallax/jsPDF)
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dhanashri-resume.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd dhanashri-resume
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running Locally
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
-## Deploy to Vercel
-Just push to GitHub and import into Vercel.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📁 Project Structure
+
+- `app/`: Next.js app router pages and layouts.
+- `components/`: Reusable React components (Resume, etc.).
+- `public/`: Static assets.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

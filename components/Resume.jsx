@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { EnvelopeIcon, LinkIcon, PhoneIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon, LinkIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import { useRef } from "react";
 
 export default function Resume() {
@@ -53,17 +53,7 @@ export default function Resume() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-8 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Download Button - Fixed at top */}
-        <div className="flex justify-end mb-6">
-          <motion.button
-            onClick={downloadPDF}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 font-semibold"
-          >
-            <ArrowDownTrayIcon className="h-5 w-5" />
-            Download PDF
-          </motion.button>
-        </div>
+        {/* Download Button hidden */}
 
         {/* Resume Content */}
         <motion.div
@@ -79,29 +69,22 @@ export default function Resume() {
               Dhanashri Patil
             </h1>
             <p className="text-xl text-gray-700 font-semibold mb-4">Software Test Engineer</p>
-            
+
             <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <span className="font-medium">📍</span>
                 <span>Virar, Maharashtra, India</span>
               </div>
-              <a 
+              <a
                 href="mailto:patil.dhanuu23@gmail.com"
                 className="flex items-center gap-2 hover:text-orange-600 transition-colors"
               >
                 <EnvelopeIcon className="h-4 w-4" />
                 <span>patil.dhanuu23@gmail.com</span>
               </a>
-              <a 
-                href="tel:+918237207698"
-                className="flex items-center gap-2 hover:text-orange-600 transition-colors"
-              >
-                <PhoneIcon className="h-4 w-4" />
-                <span>+91 8237207698</span>
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/patildhanashri" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/patildhanashri"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-orange-600 transition-colors"
               >
@@ -117,13 +100,13 @@ export default function Resume() {
               Professional Summary
             </h2>
             <p className="text-gray-700 leading-relaxed text-base">
-              Results-oriented software test engineer with expertise in automation and manual testing, 
-              passionate about ensuring robust and reliable software releases through rigorous analysis 
-              and collaborative teamwork. Skilled in tools like Cypress and Selenium, with a knack for 
-              troubleshooting and process enhancement in Agile environments. Committed to delivering 
-              high-quality outcomes and learning new technologies to drive team and project success. 
-              During a recent career break, proactively upskilled in artificial intelligence (AI) 
-              technologies, gaining knowledge in AI-driven testing tools and automation frameworks to 
+              Results-oriented software test engineer with expertise in automation and manual testing,
+              passionate about ensuring robust and reliable software releases through rigorous analysis
+              and collaborative teamwork. Skilled in tools like Cypress and Selenium, with a knack for
+              troubleshooting and process enhancement in Agile environments. Committed to delivering
+              high-quality outcomes and learning new technologies to drive team and project success.
+              During a recent career break, proactively upskilled in artificial intelligence (AI)
+              technologies, gaining knowledge in AI-driven testing tools and automation frameworks to
               enhance testing efficiency and innovation in future projects.
             </p>
           </section>
@@ -141,8 +124,8 @@ export default function Resume() {
                 <span className="text-gray-600 font-medium text-sm md:text-base">Nov 2022 - Present</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-2">
-                After a meaningful pause to embrace marriage and motherhood, I'm excited to return with 
-                renewed energy and a commitment to upskilling in the latest technologies and AI, ready 
+                After a meaningful pause to embrace marriage and motherhood, I'm excited to return with
+                renewed energy and a commitment to upskilling in the latest technologies and AI, ready
                 to contribute effectively and grow professionally in software testing.
               </p>
             </div>
@@ -160,11 +143,11 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed mb-3">
-                Experienced Software Test Engineer with a strong focus on designing, executing, and 
-                maintaining manual and automated tests for web and mobile applications. Skilled in 
-                creating test plans, identifying defects, collaborating with cross-functional teams, 
-                and ensuring software meets quality standards. Proficient with testing tools like 
-                Selenium and Appium, with a commitment to improving testing processes and delivering 
+                Experienced Software Test Engineer with a strong focus on designing, executing, and
+                maintaining manual and automated tests for web and mobile applications. Skilled in
+                creating test plans, identifying defects, collaborating with cross-functional teams,
+                and ensuring software meets quality standards. Proficient with testing tools like
+                Selenium and Appium, with a commitment to improving testing processes and delivering
                 reliable, user-friendly software solutions.
               </p>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -196,11 +179,11 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed mb-3">
-                Transitioned from Associate Software Test Engineer to Software Test Engineer with 
-                enhanced responsibilities in creating and executing detailed test plans, identifying 
-                defects, and collaborating with development teams to improve software quality. Skilled 
-                in both manual and automated testing, contributing to test case design, defect tracking, 
-                and basic team coordination. Continuously developing technical skills in test automation 
+                Transitioned from Associate Software Test Engineer to Software Test Engineer with
+                enhanced responsibilities in creating and executing detailed test plans, identifying
+                defects, and collaborating with development teams to improve software quality. Skilled
+                in both manual and automated testing, contributing to test case design, defect tracking,
+                and basic team coordination. Continuously developing technical skills in test automation
                 and programming for stronger QA impact.
               </p>
               <div className="mt-4 mb-4">
@@ -209,9 +192,9 @@ export default function Resume() {
                   <p className="text-gray-700 font-medium">Associate Software Test Engineer</p>
                   <p className="text-gray-600 text-sm mb-2">Oct 2017 - Apr 2018</p>
                   <p className="text-gray-700 text-sm leading-relaxed">
-                    Seasoned UI & Mobile App Tester skilled in ensuring seamless user experiences for 
-                    websites and iOS/Android apps. Experienced in manual and automated testing, defect 
-                    tracking, and collaborating with development teams to deliver high-quality, 
+                    Seasoned UI & Mobile App Tester skilled in ensuring seamless user experiences for
+                    websites and iOS/Android apps. Experienced in manual and automated testing, defect
+                    tracking, and collaborating with development teams to deliver high-quality,
                     user-friendly products. Proficient in Selenium, Cypress, and industry-standard QA practices.
                   </p>
                 </div>
@@ -260,6 +243,7 @@ export default function Resume() {
             <div>
               <h3 className="text-lg font-bold text-gray-800">Secondary School Certificate</h3>
               <p className="text-gray-700 font-semibold">Aryan High School</p>
+              <p className="text-gray-600 text-sm">Maharashtra State Board • Mar 2011</p>
             </div>
           </section>
 
@@ -276,7 +260,7 @@ export default function Resume() {
                 <span className="text-gray-600 font-medium text-sm">Aug 2016 - May 2017</span>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                The objective of this project is to have a clearer visual view of how a differential 
+                The objective of this project is to have a clearer visual view of how a differential
                 relay operates in the industries and how the fault clearing is done within the relay.
               </p>
             </div>
